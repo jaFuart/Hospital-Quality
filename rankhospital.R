@@ -7,7 +7,6 @@ rankhospital <- function(state, outcome, num = 'best') {
                    na.strings = c("NA", "Not Available"))
   
   ##Get data we're interested in
-  
   rates <- as.data.frame(cbind(data[, 2],   #hospital
                                data[, 7],   #state
                                data[, 11],  #heart attack

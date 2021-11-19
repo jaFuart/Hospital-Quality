@@ -1,5 +1,6 @@
 best <- function(state, outcome) {
   ##Read outcome data
+  
   data <- read.csv(file='outcome-of-care-measures.csv', 
                    colClasses = 'character', 
                    na.strings = c("NA", "Not Available"))

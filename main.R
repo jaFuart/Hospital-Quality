@@ -43,3 +43,11 @@ rankhospital("MD", "heart attack", "worst")
 ##"HARFORD MEMORIAL HOSPITAL"
 rankhospital("MN", "heart attack", 5000)
 ##NA
+
+##Source rankall function
+source("rankall.R")
+
+##Making some examples
+head(rankall("heart attack", 20), 10)
+tail(rankall("pneumonia", "worst"), 3)
+tail(rankall("heart failure"), 10)
